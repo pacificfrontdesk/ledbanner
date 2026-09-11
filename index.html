@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LED Banner - Scrolling Sign</title>
+<meta name="description" content="Turn your iPhone or iPad into a glowing scrolling LED sign.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://pacificfrontdesk.github.io/ledbanner/">
+<meta property="og:title" content="LED Banner - Scrolling Sign">
+<meta property="og:description" content="Turn your iPhone or iPad into a glowing scrolling LED sign.">
+<meta property="og:image" content="https://pacificfrontdesk.github.io/ledbanner/img/icon.jpg">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="img/icon.jpg">
+<link rel="apple-touch-icon" href="img/icon.jpg">
+<style>
+    :root { color-scheme: light dark; }
+    body {
+      margin: 0 auto; padding: 48px 24px 96px; max-width: 46rem;
+      font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: #1C1C1E; background: #F4F4F7;
+    }
+    h1 { font-size: 1.9rem; letter-spacing: -0.01em; margin: 0; }
+    h2 { font-size: 1.15rem; margin: 2.4rem 0 0.6rem; }
+    .sub { color: #6C6C72; margin: 0.1rem 0 0; }
+    ul { padding-left: 1.2rem; }
+    li { margin: 0.35rem 0; }
+    a { color: #0A6CDB; }
+    footer { margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid #D9D9DE; color: #6C6C72; font-size: 0.92rem; }
+
+    .hero { display: flex; align-items: center; gap: 20px; margin-bottom: 1.8rem; }
+    .icon { width: 96px; height: 96px; border-radius: 22%; flex: 0 0 auto;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25); }
+    .tagline { font-size: 1.3rem; font-weight: 650; margin: 0 0 0.5rem; }
+    .badge { display: inline-block; margin: 1.1rem 0 0.4rem; padding: 10px 22px; border-radius: 999px;
+             background: #1C1C1E; color: #F4F4F7; font-weight: 600; }
+    .wide { display: block; width: 100%; height: auto; margin: 2rem 0 0; border-radius: 18px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); }
+    .shots { display: flex; gap: 16px; margin: 1.2rem -24px 0; padding: 6px 24px 18px;
+             overflow-x: auto; scroll-snap-type: x mandatory; }
+    .shots img { width: 220px; height: auto; flex: 0 0 auto; border-radius: 18px; scroll-snap-align: start;
+                 box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); }
+
+    @media (prefers-color-scheme: dark) {
+      body { color: #F2F2F7; background: #0E0E12; }
+      .sub, footer { color: #9A9AA2; }
+      footer { border-top-color: #2C2C33; }
+      a { color: #5AC8FA; }
+      .badge { background: #F2F2F7; color: #0E0E12; }
+      .wide, .shots img { box-shadow: 0 6px 20px rgba(0, 0, 0, 0.55); }
+    }
+</style>
+</head>
+<body>
+<div class="hero">
+  <img class="icon" src="img/icon.jpg" width="96" height="96" alt="LED Banner app icon: three glowing LED chevrons in magenta, purple and cyan on a dark dot-matrix panel">
+  <div>
+    <h1>LED Banner</h1>
+    <p class="sub">Scrolling Sign · for iPhone and iPad</p>
+  </div>
+</div>
+
+<p class="tagline">Turn your screen into a glowing LED sign.</p>
+<p>Type a message and LED Banner scrolls it across your screen in bright, glowing LED letters -
+for concerts, parties, airport pickups, sports games, shop windows, or just saying hello across
+a noisy room. Tap the banner and the whole screen becomes the sign.</p>
+<p class="badge">Coming soon to the App Store</p>
+
+<img class="wide" src="img/fullscreen.jpg" width="1200" height="555" alt="Full-screen banner reading PARTY! in rainbow LED letters">
+
+<div class="shots">
+  <img src="img/01-main.jpg" width="600" height="1298" alt="Main screen with a live rainbow preview, one-tap templates and the message editor">
+  <img src="img/02-gradient.jpg" width="600" height="1298" alt="Gradient text: HAPPY BIRTHDAY fading from orange to pink, with start and end colour pickers">
+  <img src="img/03-presets.jpg" width="600" height="1298" alt="Saved presets: Birthday party, Concert night and Airport pickup">
+</div>
+
+<h2>What you can do</h2>
+<ul>
+  <li>Scroll left, right, up or down, or keep the text still, at any speed</li>
+  <li>Effects: Blink, Pulse, Rainbow, and Wave - a rainbow that flows through the letters</li>
+  <li>Gradient text that fades from one colour to another across your message</li>
+  <li>Any text colour and background, adjustable glow, square or round LED pixels</li>
+  <li>One-tap templates: Birthday, Welcome, Party, Congrats, Go Team, Open, Pickup and more</li>
+  <li>Mirror mode for showing a banner through a mirror or a car window</li>
+  <li>Full-screen mode that keeps the screen awake while your sign is up</li>
+  <li>Saved presets for the banners you use again and again</li>
+</ul>
+
+<h2>Free, with an optional Pro upgrade</h2>
+<p>Everything above is free. A one-time Pro purchase adds premium fonts and unlimited saved
+presets. No subscription, no adverts, no account.</p>
+
+<h2>Help and policies</h2>
+<ul>
+  <li><a href="./support.html">Support</a> - common questions, and how to reach me</li>
+  <li><a href="./privacy.html">Privacy Policy</a> - LED Banner collects no data</li>
+  <li><a href="./terms.html">Terms of Use</a></li>
+</ul>
+<footer>
+  LED Banner is made by Oleg Nochka. &copy; 2026 Oleg Nochka.<br>
+  <a href="./">Home</a> · <a href="./privacy.html">Privacy</a> · <a href="./terms.html">Terms</a> · <a href="./support.html">Support</a>
+</footer>
+</body>
+</html>
